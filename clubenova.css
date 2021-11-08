@@ -1,0 +1,19 @@
+.course-box .main-wrapper .header .md-button.md-fab.md-fab-bottom-right { 
+   right:0 !important; 
+   opacity: 0.9; 
+   font-weight: bold; 
+   font-size: 0.8rem;
+}
+
+.chat-container.flex::before {
+   content:"\a\0020\0020\0020\0020 Olá! Bem-vindo ao chat de atendimento do Clube Nova. Como podemos te ajudar?\a\0020\0020\0020\0020Nosso horário de atendimento é de segunda a sexta, das 9h às 18h\a\a";
+   white-space: pre;
+   color: #c23137;
+}
+
+@media screen and (max-width: 428px) {
+.chat-container.flex::before {
+   content:"\a\0020\0020\0020Olá! Bem-vindo ao chat de atendimento do \A\0020\0020\0020 Clube Nova. Como podemos te ajudar? \A\0020\0020\0020Nosso horário de atendimento é \a\0020\0020\0020 de segunda a sexta, das 9h às 18h.\a\a";
+   white-space: pre;
+   color: #c23137;
+}
